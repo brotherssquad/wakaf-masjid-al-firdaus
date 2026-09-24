@@ -388,7 +388,7 @@ function renderPrayers(prayers) {
       <div>
         <div class="flex items-center justify-between mb-2">
           <div class="flex items-center space-x-2">
-            <div class="w-8 h-8 rounded-full bg-amber-100 text-maroon flex items-center justify-center font-bold text-sm">
+            <div class="w-8 h-8 rounded-full bg-amber-100 text-purple-700 flex items-center justify-center font-bold text-sm">
               ${item.nama.charAt(0).toUpperCase()}
             </div>
             <div>

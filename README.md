@@ -44,13 +44,14 @@ Materi landing page ini diambil 100% akurat dari poster resmi penggalangan donas
 
 ## 🚀 Fitur Unggulan Landing Page
 
-1. **Desain Islami Modern & Elegan:** Nuansa warna Marun (`#7c123d`) & Emas/Amber (`#f59e0b`) sesuai identitas visual poster asli.
-2. **Auto WhatsApp Generator:** Memilih paket atau mengisi formulir donasi akan otomatis menyusun pesan WhatsApp yang sopan, rapi, dan langsung terhubung ke nomor narahubung yang dipilih donatur.
-3. **Kalkulator Wakaf Tanah Interaktif:** Donatur dapat menggeser slider luas lahan (0.1 - 10 m²) untuk menghitung estimasi rupiah yang dibutuhkan secara realtime.
-4. **Tombol Salin No. Rekening:** 1-klik salin nomor rekening Bank Muamalat dengan konfirmasi visual (Toast notification).
-5. **Dinding Doa Donatur (Wall of Doa):** Tempat donatur menuliskan doa dan harapan, serta fitur tombol "Aamiin" interaktif.
-6. **Modal Viewer Poster Utuh:** Donatur dapat melihat poster asli dalam resolusi tinggi dan mengunduh filenya untuk disebarkan di status WhatsApp.
-7. **Floating Mobile Action Bar:** Tombol mengambang di layar ponsel untuk konversi donasi tinggi melalui WhatsApp.
+1. **Desain Islami Modern & Elegan:** Nuansa warna Ungu Kerajaan / Royal Purple (`#5b21b6`, `#2e1065`) & Emas/Amber (`#f59e0b`) yang anggun dan berwibawa.
+2. **Kutipan Utama Wakaf:** *"Setiap kebaikan ditanah tersebut akan terus mengalirkan pahala tanpa henti."*
+3. **Auto WhatsApp Generator:** Memilih paket atau mengisi formulir donasi akan otomatis menyusun pesan WhatsApp yang sopan, rapi, dan langsung terhubung ke nomor narahubung yang dipilih donatur.
+4. **Kalkulator Wakaf Tanah Interaktif:** Donatur dapat menggeser slider luas lahan (0.1 - 10 m²) untuk menghitung estimasi rupiah yang dibutuhkan secara realtime.
+5. **Tombol Salin No. Rekening:** 1-klik salin nomor rekening Bank Muamalat dengan konfirmasi visual (Toast notification).
+6. **Dinding Doa Donatur (Wall of Doa):** Tempat donatur menuliskan doa dan harapan, serta fitur tombol "Aamiin" interaktif.
+7. **Modal Viewer Poster Utuh:** Donatur dapat melihat poster asli dalam resolusi tinggi dan mengunduh filenya untuk disebarkan di status WhatsApp.
+8. **Floating Mobile Action Bar:** Tombol mengambang di layar ponsel untuk konversi donasi tinggi melalui WhatsApp.
 
 ---
 

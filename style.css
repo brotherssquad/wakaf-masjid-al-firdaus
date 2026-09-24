@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
 
 :root {
-  --color-maroon-dark: #4e0a24;
-  --color-maroon: #7c123d;
-  --color-maroon-light: #9e1b52;
-  --color-magenta: #a80e50;
+  --color-purple-dark: #1e053a;
+  --color-purple-deep: #2e1065;
+  --color-purple: #5b21b6;
+  --color-purple-light: #7c3aed;
+  --color-purple-soft: #f5f3ff;
   --color-gold: #f59e0b;
   --color-gold-dark: #d97706;
   --color-gold-light: #fef08a;
@@ -28,17 +29,17 @@ html {
   font-family: 'Amiri', 'Traditional Arabic', serif;
 }
 
-/* Islamic Geometric Pattern Background */
+/* Islamic Geometric Pattern Background in Royal Purple */
 .bg-islamic-pattern {
-  background-color: #7c123d;
-  background-image: radial-gradient(rgba(245, 158, 11, 0.12) 1.5px, transparent 1.5px), radial-gradient(rgba(255, 255, 255, 0.08) 1.5px, transparent 1.5px);
+  background-color: #2e1065;
+  background-image: radial-gradient(rgba(245, 158, 11, 0.16) 1.5px, transparent 1.5px), radial-gradient(rgba(255, 255, 255, 0.08) 1.5px, transparent 1.5px);
   background-size: 32px 32px;
   background-position: 0 0, 16px 16px;
 }
 
 .bg-pattern-cream {
   background-color: #faf7f2;
-  background-image: radial-gradient(rgba(124, 18, 61, 0.04) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(91, 33, 182, 0.05) 1px, transparent 1px);
   background-size: 24px 24px;
 }
 
@@ -49,15 +50,15 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
-.text-gradient-maroon {
-  background: linear-gradient(135deg, #7c123d 0%, #4e0a24 100%);
+.text-gradient-purple {
+  background: linear-gradient(135deg, #7c3aed 0%, #2e1065 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 /* Card Glow & Glassmorphism */
-.glass-maroon {
-  background: rgba(124, 18, 61, 0.92);
+.glass-purple {
+  background: rgba(46, 16, 101, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(245, 158, 11, 0.25);
@@ -70,13 +71,13 @@ html {
   border: 1px solid rgba(229, 231, 235, 0.8);
 }
 
-/* Custom Shadow */
+/* Custom Shadows */
 .shadow-gold {
   box-shadow: 0 10px 30px -5px rgba(245, 158, 11, 0.3);
 }
 
-.shadow-maroon {
-  box-shadow: 0 12px 32px -6px rgba(124, 18, 61, 0.35);
+.shadow-purple {
+  box-shadow: 0 12px 32px -6px rgba(91, 33, 182, 0.35);
 }
 
 .shadow-card-hover {
@@ -84,13 +85,13 @@ html {
 }
 .shadow-card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 35px -8px rgba(124, 18, 61, 0.15), 0 0 1px 1px rgba(245, 158, 11, 0.2);
+  box-shadow: 0 20px 35px -8px rgba(91, 33, 182, 0.15), 0 0 1px 1px rgba(245, 158, 11, 0.2);
 }
 
-/* Ribbon Package styling like the original poster */
+/* Ribbon Package styling */
 .ribbon-tag {
   position: relative;
-  background: #a80e50;
+  background: #5b21b6;
   clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
 }
 
@@ -146,11 +147,11 @@ html {
 /* Smooth Input Focus */
 input:focus, select:focus, textarea:focus {
   outline: none;
-  border-color: #7c123d !important;
-  box-shadow: 0 0 0 3px rgba(124, 18, 61, 0.15) !important;
+  border-color: #5b21b6 !important;
+  box-shadow: 0 0 0 3px rgba(91, 33, 182, 0.18) !important;
 }
 
-/* Custom Scrollbar */
+/* Custom Scrollbar in Purple */
 ::-webkit-scrollbar {
   width: 9px;
 }
@@ -158,9 +159,9 @@ input:focus, select:focus, textarea:focus {
   background: #f1ede6;
 }
 ::-webkit-scrollbar-thumb {
-  background: #7c123d;
+  background: #5b21b6;
   border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #580c29;
+  background: #4c1d95;
 }
