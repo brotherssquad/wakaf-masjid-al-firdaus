@@ -1,0 +1,18 @@
+{
+  "name": "wakaf-masjid-al-firdaus",
+  "version": "1.0.0",
+  "description": "Landing Page Penggalangan Donasi Wakaf Perluasan Masjid Al-Firdaus Ngoto, Sewon, Bantul, Yogyakarta",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "wakaf",
+    "masjid",
+    "donasi",
+    "yogyakarta",
+    "bantul"
+  ],
+  "author": "Masjid Al-Firdaus Ngoto",
+  "license": "MIT"
+}
