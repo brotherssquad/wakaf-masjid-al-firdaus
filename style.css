@@ -1,20 +1,22 @@
 /* Custom Styles for Landing Page Wakaf Masjid Al-Firdaus Ngoto, Bantul */
-/* Color Palette Inspired by Poster Kombinasi Warna (Night Sky, Sunset Glow, Royal Islamic Emerald & Radiant Solar Gold) */
+/* Color Palette: Hitam (Midnight), Merah (Sunset Crimson), Ungu (Royal Violet - Logo & Sky), Hijau (Islamic Emerald) */
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
 
 :root {
-  --color-night-black: #060d0a;
-  --color-sunset-glow: #b91c1c;
-  --color-sunset-orange: #ea580c;
-  --color-emerald-deep: #022c22;
-  --color-emerald-dark: #064e3b;
-  --color-emerald-primary: #019154;
-  --color-emerald-light: #059669;
-  --color-emerald-bright: #10b981;
-  --color-mint-soft: #f0fdf4;
-  --color-gold-solar: #fde047;
+  /* 4 Primary Colors from Poster */
+  --color-hitam: #050508;
+  --color-merah: #b91c1c;
+  --color-merah-glow: #dc2626;
+  --color-ungu: #6b21a8;
+  --color-ungu-deep: #3b0764;
+  --color-hijau: #019154;
+  --color-hijau-dark: #044e3b;
+  --color-hijau-deep: #022c22;
+  
+  /* Gold & Neutral Accents */
   --color-gold: #facc15;
-  --color-gold-dark: #ca8a04;
+  --color-gold-solar: #fde047;
+  --color-mint-soft: #f0fdf4;
   --color-cream: #faf7f2;
 }
 
@@ -29,23 +31,26 @@ html {
   font-family: 'Amiri', 'Traditional Arabic', serif;
 }
 
-/* Islamic Emerald Arabesque Texture Background (Direct from Poster Kombinasi) */
+/* 4-Color Poster Atmospheric Hero Gradient:
+   Hitam (Top Sky) -> Ungu (Twilight) -> Merah (Sunset Horizon Glow) -> Hijau (Islamic Emerald Base) */
+.bg-hero-4colors {
+  background: 
+    radial-gradient(ellipse 85% 45% at 50% 48%, rgba(185, 28, 28, 0.42) 0%, rgba(220, 38, 38, 0.22) 35%, transparent 70%),
+    radial-gradient(circle at 15% 25%, rgba(107, 33, 168, 0.35) 0%, transparent 50%),
+    radial-gradient(circle at 85% 25%, rgba(107, 33, 168, 0.35) 0%, transparent 50%),
+    linear-gradient(180deg, #050508 0%, #15091d 22%, #2d0e2e 38%, #3f101a 52%, #064032 80%, #022c22 100%);
+}
+
+/* Islamic Emerald Damask Background with Gold & Purple Ambient Glow */
 .bg-islamic-pattern {
   background-color: #044e3b;
   background-image: 
-    radial-gradient(circle at 50% 10%, rgba(1, 145, 84, 0.45), transparent 60%),
-    radial-gradient(circle at 10% 80%, rgba(250, 204, 21, 0.12), transparent 45%),
+    radial-gradient(circle at 50% 10%, rgba(1, 145, 84, 0.55), transparent 65%),
+    radial-gradient(circle at 85% 85%, rgba(107, 33, 168, 0.25), transparent 50%),
     radial-gradient(rgba(250, 204, 21, 0.15) 1.5px, transparent 1.5px),
     radial-gradient(rgba(255, 255, 255, 0.08) 1.5px, transparent 1.5px);
   background-size: 100% 100%, 100% 100%, 28px 28px, 28px 28px;
   background-position: 0 0, 0 0, 0 0, 14px 14px;
-}
-
-/* Hero Sky to Sunset & Emerald Gradient */
-.bg-hero-sunset {
-  background: 
-    radial-gradient(ellipse 90% 50% at 50% 38%, rgba(185, 28, 28, 0.45) 0%, rgba(234, 88, 12, 0.25) 35%, transparent 75%),
-    linear-gradient(180deg, #060b08 0%, #140d12 22%, #1a1622 40%, #063d30 75%, #022c22 100%);
 }
 
 .bg-pattern-mint {
@@ -54,9 +59,15 @@ html {
   background-size: 24px 24px;
 }
 
-/* Elegant Text Gradients */
+/* Text Gradients */
 .text-gradient-gold {
   background: linear-gradient(135deg, #ffffff 0%, #fde047 35%, #facc15 70%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-sunset {
+  background: linear-gradient(135deg, #fde047 0%, #ea580c 50%, #dc2626 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -67,46 +78,31 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
-/* Card Glow & Glassmorphism */
-.glass-emerald {
-  background: rgba(4, 78, 59, 0.92);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(250, 204, 21, 0.28);
-}
-
-.glass-card {
-  background: rgba(255, 255, 255, 0.97);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(220, 252, 231, 0.9);
-}
-
-/* Custom Shadows */
+/* Shadows */
 .shadow-gold {
   box-shadow: 0 10px 30px -5px rgba(250, 204, 21, 0.35);
 }
 
 .shadow-emerald {
-  box-shadow: 0 12px 32px -6px rgba(1, 145, 84, 0.35);
+  box-shadow: 0 12px 32px -6px rgba(1, 145, 84, 0.38);
 }
 
-.shadow-card-hover {
-  transition: all 0.3s ease;
-}
-.shadow-card-hover:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 35px -8px rgba(1, 145, 84, 0.18), 0 0 1px 1px rgba(250, 204, 21, 0.3);
+.shadow-purple {
+  box-shadow: 0 12px 32px -6px rgba(107, 33, 168, 0.35);
 }
 
-/* Ribbon Package styling like poster ribbon */
+.shadow-red {
+  box-shadow: 0 12px 32px -6px rgba(185, 28, 28, 0.35);
+}
+
+/* Ribbon Package */
 .ribbon-tag {
   position: relative;
   background: #019154;
   clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
 }
 
-/* Soft pulse animation for CTA */
+/* Pulse animation for CTA */
 @keyframes softPulse {
   0%, 100% {
     transform: scale(1);
@@ -155,24 +151,24 @@ html {
   transform: scale(1);
 }
 
-/* Smooth Input Focus */
+/* Inputs Focus */
 input:focus, select:focus, textarea:focus {
   outline: none;
   border-color: #019154 !important;
-  box-shadow: 0 0 0 3px rgba(1, 145, 84, 0.2) !important;
+  box-shadow: 0 0 0 3px rgba(1, 145, 84, 0.22) !important;
 }
 
-/* Custom Scrollbar in Emerald */
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 9px;
 }
 ::-webkit-scrollbar-track {
-  background: #f0fdf4;
+  background: #050508;
 }
 ::-webkit-scrollbar-thumb {
-  background: #019154;
+  background: #6b21a8;
   border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #064e3b;
+  background: #019154;
 }
