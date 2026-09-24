@@ -44,7 +44,7 @@ Materi landing page ini diambil 100% akurat dari poster resmi penggalangan donas
 
 ## 🚀 Fitur Unggulan Landing Page
 
-1. **Desain Islami Modern & Elegan:** Nuansa warna Ungu Kerajaan / Royal Purple (`#5b21b6`, `#2e1065`) & Emas/Amber (`#f59e0b`) yang anggun dan berwibawa.
+1. **Desain Islami Premium & Dramatis:** Kombinasi warna dari poster referensi — Langit Malam Hitam Arang, Pendar Cakrawala Senja (Sunset Orange-Red Glow), Hijau Zamrud Islami (Royal Islamic Emerald `#019154` / `#064e3b`), dan Aksen Kuning Surya (Solar Gold `#facc15`).
 2. **Kutipan Utama Wakaf:** *"Setiap kebaikan ditanah tersebut akan terus mengalirkan pahala tanpa henti."*
 3. **Auto WhatsApp Generator:** Memilih paket atau mengisi formulir donasi akan otomatis menyusun pesan WhatsApp yang sopan, rapi, dan langsung terhubung ke nomor narahubung yang dipilih donatur.
 4. **Kalkulator Wakaf Tanah Interaktif:** Donatur dapat menggeser slider luas lahan (0.1 - 10 m²) untuk menghitung estimasi rupiah yang dibutuhkan secara realtime.
